@@ -396,6 +396,7 @@ button.white{
     color: #088178a8;
     font-weight: 900;
     font-size: 22px;
+    text-transform: uppercase;    
 }
 #banner3 .banner-box:nth-child(2) h2{
     color: #716f75;
@@ -404,4 +405,151 @@ button.white{
     color: #ec544c;
     font-weight: 800;
     font-size: 15px;
+}
+ 
+/* ------------------- newsletters ------------------ */
+#newsletter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url('../images/8.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 20vh;
+}
+#newsletter h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: #06504b;
+}
+#newsletter p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #818ea0;
+}
+#newsletter p span{
+    color: #fc5555c5;
+}
+#newsletter form{
+    position: relative;
+    margin-bottom: 2px;
+    width: 500px;
+}
+#newsletter input{
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid #06504b;
+    border-radius: 24px;
+    outline: none;
+}
+#newsletter button{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    letter-spacing: 1px;
+    border-radius: 24px;
+    border: 1px solid #06504b;
+    background-color: #06504b;
+    color: #fff;
+}
+/* ------------------ Footer ------------------ */
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+/* footer .col{
+    width: 20%;
+} */
+footer .col:nth-child(1){
+    position: relative;
+    width: 40%;
+}
+footer .col:nth-child(2){
+    position: relative;
+    width: 15%;
+}
+footer .col:nth-child(3){
+    position: relative;
+    width: 15%;
+}
+footer .col:nth-child(4){
+    position: relative;
+    width: 20%;
+}
+footer .col .logo{
+    position: absolute;
+    left: -36px;
+    top: -71px;
+}
+footer .icon{
+    width: 10%;
+    min-width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none; 
+}
+footer .icon li a{
+    text-decoration: none;
+    color: #06504bcc;
+}
+footer h4{
+    font-size: 16px;
+    margin: 20px 0;
+    font-weight: 800;
+}
+footer p{
+    font-size: 13px;
+    font-weight: 400;
+    margin: 10px 0;
+    opacity: .8;
+}
+footer #about-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    list-style-type: none; 
+}
+footer #about-links li{
+    margin: 3px 0;
+}
+footer #about-links li a{
+    font-size: 14px;
+    font-weight: 400;
+    color: #222;
+    opacity: .8;
+    text-decoration: none;
+}
+
+.install .row{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.install .row img{
+    border: 1px solid #606063;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+.payment ul li{
+    margin-right: 15px;
+}
+
+.copyright{
+    padding-bottom: 0;
+    text-align: center;
+}
+.copyright p{
+    color: #06504bcc; 
+    font-size: 14px;
 }
